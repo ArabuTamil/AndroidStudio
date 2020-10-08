@@ -57,4 +57,12 @@
         <Key android:keyLabel="\? ! :"  android:keyEdgeFlags="right" android:codes="63, 33, 58"/>
     </Row>
 
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="," android:KeyWidth="10%p" android:keyEdgeFlags="left" android:codes="44" />
+        <Key android:keyLabel="/" android:KeyWidth="10%p" android:codes="47" />
+        <Key android:keyLabel="SPACE" android:KeyWidth="40%p" android:isRepeatable="true" android:codes="32" />
+        <Key android:keyLabel="DEL" android:KeyWidth="20%p" android:isRepeatable="true" android:codes="-5" />
+        <Key android:keyLabel="DONE" android:KeyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4" />
+    </Row>
+
 </Keyboard>
