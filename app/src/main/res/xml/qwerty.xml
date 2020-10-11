@@ -6,18 +6,6 @@
     android:keyWidth="10%p">
 
     <Row>
-<<<<<<< Updated upstream
-        <Key android:keyLabel="1" android:keyEdgeFlags="left" android:codes="49"/>
-        <Key android:keyLabel="2" android:codes="50"/>
-        <Key android:keyLabel="3" android:codes="51"/>
-        <Key android:keyLabel="4" android:codes="52"/>
-        <Key android:keyLabel="5" android:codes="53"/>
-        <Key android:keyLabel="6" android:codes="54"/>
-        <Key android:keyLabel="7" android:codes="55"/>
-        <Key android:keyLabel="8" android:codes="56"/>
-        <Key android:keyLabel="9" android:codes="58"/>
-        <Key android:keyLabel="0" android:keyEdgeFlags="right" android:codes="48"/>
-=======
         <Key android:codes="1777" android:keyLabel="۱" android:keyEdgeFlags="left"/>
         <Key android:codes="1778" android:keyLabel="۲"/>
         <Key android:codes="1779" android:keyLabel="۳"/>
@@ -29,56 +17,10 @@
         <Key android:codes="1785" android:keyLabel="۹"/>
         <Key android:codes="1776" android:keyLabel="۰" android:keyEdgeFlags="right"/>
 
->>>>>>> Stashed changes
     </Row>
 
-    <Row>
-<<<<<<< Updated upstream
-        <Key android:keyLabel="q" android:keyEdgeFlags="left" android:codes="113"/>
-        <Key android:keyLabel="w" android:codes="119"/>
-        <Key android:keyLabel="e" android:codes="101"/>
-        <Key android:keyLabel="r" android:codes="114"/>
-        <Key android:keyLabel="t" android:codes="116"/>
-        <Key android:keyLabel="y" android:codes="121"/>
-        <Key android:keyLabel="u" android:codes="117"/>
-        <Key android:keyLabel="i" android:codes="105"/>
-        <Key android:keyLabel="o" android:codes="111"/>
-        <Key android:keyLabel="p" android:keyEdgeFlags="right" android:codes="112"/>
-    </Row>
-
-    <Row>
-        <Key android:keyLabel="a" android:keyEdgeFlags="left" android:codes="97"/>
-        <Key android:keyLabel="s" android:codes="115"/>
-        <Key android:keyLabel="d" android:codes="100"/>
-        <Key android:keyLabel="f" android:codes="102"/>
-        <Key android:keyLabel="g" android:codes="103"/>
-        <Key android:keyLabel="h" android:codes="104"/>
-        <Key android:keyLabel="j" android:codes="106"/>
-        <Key android:keyLabel="k" android:codes="107"/>
-        <Key android:keyLabel="l" android:codes="108"/>
-        <Key android:keyLabel="\# \@" android:keyEdgeFlags="right" android:codes="35, 64"/>
-    </Row>
-
-    <Row>
-        <Key android:keyLabel="CAPS" android:keyEdgeFlags="left" android:codes="122"/>
-        <Key android:keyLabel="z" android:codes="122"/>
-        <Key android:keyLabel="x" android:codes="120"/>
-        <Key android:keyLabel="c" android:codes="99" />
-        <Key android:keyLabel="v" android:codes="118"/>
-        <Key android:keyLabel="b" android:codes="98" />
-        <Key android:keyLabel="n" android:codes="110"/>
-        <Key android:keyLabel="m" android:codes="109"/>
-        <Key android:keyLabel="." android:codes="46" />
-        <Key android:keyLabel="\? ! :"  android:keyEdgeFlags="right" android:codes="63, 33, 58"/>
-    </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyLabel="," android:keyWidth="10%p" android:keyEdgeFlags="left" android:codes="44" />
-        <Key android:keyLabel="/" android:keyWidth="10%p" android:codes="47" />
-        <Key android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true" android:codes="32" />
-        <Key android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true" android:codes="-5" />
-        <Key android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4" />
-=======
         <Key android:codes="1590" android:keyLabel="ض" android:keyWidth="9%p" android:keyEdgeFlags="left"/>
         <Key android:codes="1589" android:keyLabel="ص"/>
         <Key android:codes="1579" android:keyLabel="ث"/>
@@ -105,7 +47,6 @@
         <Key android:codes="1577" android:keyLabel="ة" android:keyEdgeFlags="right" />
     </Row>
     <Row>
-
         <Key android:codes="1569" android:keyLabel="ء" android:keyWidth="9%p" android:keyEdgeFlags="left"/>
         <Key android:codes="1592" android:keyLabel="ظ"/>
         <Key android:codes="1591" android:keyLabel="ط"/>
@@ -126,7 +67,6 @@
         <Key android:codes="44" android:keyLabel=","/>
         <Key android:codes="46" android:keyLabel="."/>
         <Key android:codes="-4" android:keyLabel="OK" android:keyWidth="13%p" android:keyEdgeFlags="right"/>
->>>>>>> Stashed changes
     </Row>
 
 </Keyboard>
