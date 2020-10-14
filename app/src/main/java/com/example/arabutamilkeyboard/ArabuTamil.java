@@ -20,7 +20,7 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
 
     @Override
     public View onCreateInputView() {
-        kv = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
+        kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
         keyboard = new Keyboard(this, R.xml.qwerty);
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
@@ -42,22 +42,21 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
 
         InputConnection ic = getCurrentInputConnection();
         playClick(primaryCode);
-        switch (primaryCode)
-        {
+        switch (primaryCode) {
             case Keyboard.KEYCODE_DELETE:
-                ic.deleteSurroundingText(1 , 0 );
-            break;
+                ic.deleteSurroundingText(1, 0);
+                break;
             case Keyboard.KEYCODE_SHIFT:
                 isCaps = !isCaps;
                 keyboard.setShifted(isCaps);
                 kv.invalidateAllKeys();
-            break;
+                break;
             case Keyboard.KEYCODE_DONE:
                 ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
-            break;
+                break;
             default:
-                char code = (char)primaryCode;
-                if(Character.isLetter(code) && isCaps)
+                char code = (char) primaryCode;
+                if (Character.isLetter(code) && isCaps)
                     code = Character.toUpperCase(code);
                 ic.commitText(String.valueOf(code), 1);
         }
@@ -65,19 +64,18 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
 
     private void playClick(int primaryCode) {
 
-        AudioManager am = (AudioManager)getSystemService(AUDIO_SERVICE);
-        switch (primaryCode)
-        {
+        AudioManager am = (AudioManager) getSystemService(AUDIO_SERVICE);
+        switch (primaryCode) {
             case 32:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_SPACEBAR);
-            break;
+                break;
             case Keyboard.KEYCODE_DONE:
             case 10:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_RETURN);
-            break;
+                break;
             case Keyboard.KEYCODE_DELETE:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_DELETE);
-            break;
+                break;
             default:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_STANDARD);
         }
