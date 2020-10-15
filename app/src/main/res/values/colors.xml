@@ -3,8 +3,7 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-
-    <color name="keyboard_background_color">#4b8b3b</color>
-    <color name="keyboard_divided">#4b8b2a</color>
+    <color name="keyboard_background_color">#2e2e2e</color>
+    <color name="keyboard_divided">#e2e2e2</color>
     <color name="keyboard_pressed">#4b4a3b</color>
 </resources>
