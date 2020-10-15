@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="10%p"
+    >
+    <Row>
+        <Key android:codes="1777" android:keyLabel="۱" android:keyEdgeFlags="left"/>
+        <key android:codes = "1807" android:keyLabel="ۻ" />
+        <Key android:codes="1778" android:keyLabel="۲"/>
+        <Key android:codes="1694" android:keyLabel="ڝ"/>
+        <Key android:codes="1779" android:keyLabel="۳"/>
+        <Key android:codes="1780" android:keyLabel="۴"/>
+        <Key android:codes="1781" android:keyLabel="۵"/>
+        <Key android:codes="1699" android:keyLabel="ڣ"/>
+        <Key android:codes="1782" android:keyLabel="۶"/>
+        <Key android:codes="1783" android:keyLabel="۷"/>
+        <Key android:codes="1670" android:keyLabel="چ"/>
+        <Key android:codes="2227" android:keyLabel="ࢳ"/>
+        <Key android:codes="1684" android:keyLabel="ڔ"/>
+        <Key android:codes="2228" android:keyLabel="ࢴ"/>
+        <Key android:codes="1674" android:keyLabel="ڊ"/>
+        <Key android:codes="1677" android:keyLabel="ڍ"/>
+        <Key android:codes="1895" android:keyLabel="ݧ"/>
+        <Key android:codes="1721" android:keyLabel="ڹ"/>
+        <Key android:codes="1784" android:keyLabel="۸"/>
+        <Key android:codes="1785" android:keyLabel="۹"/>
+        <Key android:codes="1614" android:keyLabel="َ"/>
+        <Key android:codes="1616" android:keyLabel="ِ"/>
+        <Key android:codes="1615" android:keyLabel="ُ"/>
+        <Key android:codes="1611" android:keyLabel="ً"/>
+        <Key android:codes="1612" android:keyLabel="ٌ"/>
+        <Key android:codes="1613" android:keyLabel="ٍ"/>
+        <Key android:codes="1617" android:keyLabel="ّ"/>
+        <Key android:codes="1776" android:keyLabel="۰" android:keyEdgeFlags="right"/>
+
+    </Row>
+
+
+</Keyboard>
