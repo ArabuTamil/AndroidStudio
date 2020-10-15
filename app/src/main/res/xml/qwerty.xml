@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyHeight="60dp"
-    android:horizontalGap="0px"
-    android:verticalGap="0px"
-    android:keyWidth="10%p">
+    android:horizontalGap="2px"
+    android:verticalGap="6px"
+    android:keyWidth="9%p">
 
     <Row>
         <Key android:codes="1777" android:keyLabel="۱" android:keyEdgeFlags="left"/>
@@ -21,7 +21,7 @@
 
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1590" android:keyLabel="ض" android:keyWidth="9%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1590" android:keyLabel="ض" android:popupKeyboard="@xml/popup" android:popupCharacters="۱"  android:keyWidth="9%p" android:keyEdgeFlags="left"/>
         <Key android:codes="1589" android:keyLabel="ص"/>
         <Key android:codes="1579" android:keyLabel="ث"/>
         <Key android:codes="1602" android:keyLabel="ق"/>
