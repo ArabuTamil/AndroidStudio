@@ -12,9 +12,11 @@
         <Key android:codes="1694" android:keyLabel="ڝ"/>
         <Key android:codes="1779" android:keyLabel="۳"/>
         <Key android:codes="1780" android:keyLabel="۴"/>
+        <Key android:codes="1636" android:keyLabel="٤"/>
         <Key android:codes="1781" android:keyLabel="۵"/>
         <Key android:codes="1699" android:keyLabel="ڣ"/>
         <Key android:codes="1782" android:keyLabel="۶"/>
+        <Key android:codes="1638" android:keyLabel="٦"/>
         <Key android:codes="1783" android:keyLabel="۷"/>
         <Key android:codes="1670" android:keyLabel="چ"/>
         <Key android:codes="2227" android:keyLabel="ࢳ"/>
@@ -26,6 +28,14 @@
         <Key android:codes="1721" android:keyLabel="ڹ"/>
         <Key android:codes="1784" android:keyLabel="۸"/>
         <Key android:codes="1785" android:keyLabel="۹"/>
+        <Key android:codes="1726" android:keyLabel="ھ"/>
+
+        <Key android:codes="1649" android:keyLabel="ٱ"/>
+        <Key android:codes="1570" android:keyLabel="آ"/>
+        <Key android:codes="1571" android:keyLabel="أ"/>
+        <Key android:codes="1573" android:keyLabel="إ"/>
+
+
         <Key android:codes="1614" android:keyLabel="َ"/>
         <Key android:codes="1616" android:keyLabel="ِ"/>
         <Key android:codes="1615" android:keyLabel="ُ"/>
@@ -33,6 +43,9 @@
         <Key android:codes="1612" android:keyLabel="ٌ"/>
         <Key android:codes="1613" android:keyLabel="ٍ"/>
         <Key android:codes="1617" android:keyLabel="ّ"/>
+        <Key android:codes="1618" android:keyLabel="ْ"/>
+        <Key android:codes="1623" android:keyLabel="ٗ"/>
+        <Key android:codes="1629" android:keyLabel="ٝ"/>
         <Key android:codes="1776" android:keyLabel="۰" android:keyEdgeFlags="right"/>
 
     </Row>

@@ -6,17 +6,17 @@
     android:keyWidth="9%p">
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="1590" android:keyLabel="ض" android:popupKeyboard="@xml/popup" android:popupCharacters=" ۻ۱"  android:keyWidth="9%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="1590" android:keyLabel="ض" android:popupKeyboard="@xml/popup" android:popupCharacters="ۻ۱"  android:keyWidth="9%p" android:keyEdgeFlags="left"/>
         <Key android:codes="1589" android:keyLabel="ص" android:popupKeyboard="@xml/popup" android:popupCharacters="ڝ۲"/>
         <Key android:codes="1579" android:keyLabel="ث"  android:popupKeyboard="@xml/popup" android:popupCharacters="۳"/>
-        <Key android:codes="1602" android:keyLabel="ق"  android:popupKeyboard="@xml/popup" android:popupCharacters="۴"/>
+        <Key android:codes="1602" android:keyLabel="ق"  android:popupKeyboard="@xml/popup" android:popupCharacters="۴٤"/>
         <Key android:codes="1601" android:keyLabel="ف"  android:popupKeyboard="@xml/popup" android:popupCharacters="ڣ۵"/>
-        <Key android:codes="1594" android:keyLabel="غ"  android:popupKeyboard="@xml/popup" android:popupCharacters="۶"/>
+        <Key android:codes="1594" android:keyLabel="غ"  android:popupKeyboard="@xml/popup" android:popupCharacters="۶٦"/>
         <Key android:codes="1593" android:keyLabel="ع"  android:popupKeyboard="@xml/popup" android:popupCharacters="ࢳ۷"/>
-        <Key android:codes="1607" android:keyLabel="ه"  android:popupKeyboard="@xml/popup" android:popupCharacters="۸"/>
+        <Key android:codes="1607" android:keyLabel="ه"  android:popupKeyboard="@xml/popup" android:popupCharacters="ھ۸"/>
         <Key android:codes="1582" android:keyLabel="خ"  android:popupKeyboard="@xml/popup" android:popupCharacters="۹"/>
         <Key android:codes="1581" android:keyLabel="ح"  android:popupKeyboard="@xml/popup" android:popupCharacters="۰"/>
-        <Key android:codes="1580" android:keyLabel="ج"  android:keyEdgeFlags="right" android:popupCharacters="چ"/>
+        <Key android:codes="1580" android:keyLabel="ج"  android:keyEdgeFlags="right" android:popupKeyboard="@xml/popup" android:popupCharacters="چ"/>
     </Row>
     <Row>
         <Key android:codes="1588" android:keyLabel="ش" android:keyWidth="9%p" android:keyEdgeFlags="left"/>
@@ -24,7 +24,7 @@
         <Key android:codes="1610" android:keyLabel="ي"/>
         <Key android:codes="1576" android:keyLabel="ب"/>
         <Key android:codes="1604" android:keyLabel="ل"/>
-        <Key android:codes="1575" android:keyLabel="ا"/>
+        <Key android:codes="1575" android:keyLabel="ا" android:popupKeyboard="@xml/popup" android:popupCharacters="۰ٱأآإ"/>
         <Key android:codes="1578" android:keyLabel="ت"/>
         <Key android:codes="1606" android:keyLabel="ن" android:popupKeyboard="@xml/popup" android:popupCharacters="ݧڹ"/>
         <Key android:codes="1605" android:keyLabel="م"/>
@@ -42,13 +42,13 @@
         <Key android:codes="1586" android:keyLabel="ز" android:keyWidth="9%p"/>
         <Key android:codes="1592" android:keyLabel="ظ" android:keyWidth="9%p"/>
         <Key android:codes="1583" android:keyLabel="د" android:popupKeyboard="@xml/popup" android:popupCharacters="ڊڍ" android:keyWidth="9%p"/>
-        <Key android:codes="-5" android:keyLabel="Del" android:keyWidth="15%p" android:isRepeatable="true" />
+        <Key android:codes="-5" android:keyLabel="del" android:keyWidth="15%p" android:isRepeatable="true" />  //instead of (android:keyLabel="del") , (android:keyIcon="@drawable/sym_keyboard_delete") should be placed
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:keyLabel="۱۲۳" android:popupKeyboard="@xml/popup" android:popupCharacters="۱۲۳۴۵۶۷۸۹۰"  android:keyEdgeFlags="left" />
-        <Key android:codes="44" android:keyLabel="," android:keyWidth="15%p"/>
+        <Key android:codes="1548" android:keyLabel="،" android:keyWidth="15%p"/>
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="35%p"/>
-        <Key android:codes="46" android:keyLabel="." android:popupKeyboard="@xml/popup" android:popupCharacters="◌َ◌ِ◌ُ ّ"  android:keyWidth="15%p"/>
+        <Key android:codes="46" android:keyLabel="." android:popupKeyboard="@xml/popup" android:popupCharacters="◌َ◌ِ◌ُ ٌٍّْٝٗ"  android:keyWidth="15%p"/>
         <Key android:codes="-4" android:keyLabel="OK" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
     </Row>
 
