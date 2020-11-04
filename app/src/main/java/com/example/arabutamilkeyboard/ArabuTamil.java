@@ -1,6 +1,6 @@
 package com.example.arabutamilkeyboard;
-
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
@@ -20,12 +20,13 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
 
     @Override
     public View onCreateInputView() {
-        kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
+        kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard,null);
         keyboard = new Keyboard(this, R.xml.qwerty);
         kv.setKeyboard(keyboard);
         kv.setOnKeyboardActionListener(this);
         return kv;
     }
+
 
     @Override
     public void onPress(int primaryCode) {
@@ -35,7 +36,9 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
     @Override
     public void onRelease(int primaryCode) {
 
+
     }
+
 
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {
@@ -59,6 +62,7 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
                 if (Character.isLetter(code) && isCaps)
                     code = Character.toUpperCase(code);
                 ic.commitText(String.valueOf(code), 1);
+
         }
     }
 
@@ -70,6 +74,7 @@ public class ArabuTamil extends InputMethodService implements KeyboardView.OnKey
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_SPACEBAR);
                 break;
             case Keyboard.KEYCODE_DONE:
+                break;
             case 10:
                 am.playSoundEffect(AudioManager.FX_KEYPRESS_RETURN);
                 break;

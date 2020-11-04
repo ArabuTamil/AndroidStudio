@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:left="8dp"
+        android:left="2dp"
         android:right="2dp">
         <shape android:shape="rectangle ">
             <solid android:color="@color/keyboard_divided" />
+
         </shape>
     </item>
 
     <item
-        android:bottom="9dp"
-        android:left="2dp"
-        android:right="2dp"
-        android:top="9dp">
+        android:bottom="6dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="6dp">
         <shape android:shape="rectangle ">
             <solid android:color="@color/keyboard_background_color" />
             <corners android:radius="8dp"/>
 
         </shape>
     </item>
-
 </layer-list>

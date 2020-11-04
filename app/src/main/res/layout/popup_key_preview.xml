@@ -6,6 +6,6 @@
     android:layout_marginVertical="20dp"
     android:paddingHorizontal="2dp"
     android:background="@drawable/select_background"
-    android:textColor="#fff"
+    android:textColor="#000"
     android:textSize="30sp"
     android:textStyle="bold" />

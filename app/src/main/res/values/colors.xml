@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="keyboard_background_color">#2e2e2e</color>
-    <color name="keyboard_divided">#e2e2e2</color>
-    <color name="keyboard_pressed">#4b4a3b</color>
+    <color name="colorPrimaryDark">#e9eaee</color>
+    <color name="colorAccent">#54A1FF</color>
+    <color name="keyboard_background_color">#ffffff</color>
+    <color name="keyboard_divided">#e9eaee</color>
+    <color name="keyboard_pressed">#00FFFFFF</color>
+    <color name="popup_keyboard_divided">#292e32</color>
+    <color name="popup_keyboard_background_color">#e9eaee</color>
+
+
 </resources>

@@ -4,10 +4,11 @@
     android:horizontalGap="0px"
     android:verticalGap="0px"
     android:keyHeight="10%p"
+
     >
     <Row>
         <Key android:codes="1777" android:keyLabel="۱" android:keyEdgeFlags="left"/>
-        <key android:codes = "1807" android:keyLabel="ۻ" />
+        <Key android:codes="1807" android:keyLabel="ۻ" />
         <Key android:codes="1778" android:keyLabel="۲"/>
         <Key android:codes="1694" android:keyLabel="ڝ"/>
         <Key android:codes="1779" android:keyLabel="۳"/>
