@@ -61,7 +61,7 @@
         <Key android:codes="32" android:keyLabel="الأروي" android:keyWidth="50%p" android:isRepeatable="true"/>
         <Key android:codes="46"  android:keyLabel="."  android:popupKeyboard="@xml/popup" android:popupCharacters="ـٌٍَُِّْ࣭࣮"  android:keyWidth="9%"/>
         <Key android:codes="-4" android:keyLabel="⏎" android:keyWidth="16%p" android:keyEdgeFlags="right"/>
-    </Row><!--<?hi there is it visible"?>
+    </Row><!--<?hi there is it visible"?><yes visible :)>
 
 -->
 
