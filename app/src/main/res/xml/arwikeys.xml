@@ -33,6 +33,8 @@
         <Key android:codes="1617" android:keyLabel="ّ"/>
         <Key android:codes="1618" android:keyLabel="ْ"/>
         <Key android:codes="1629" android:keyLabel="ٝ"/>
+        <Key android:codes="1623" android:keyLabel="ٗ"/>
+        <Key android:codes="1844" android:keyLabel="ܴ"/>
 
         <Key android:codes="1844" android:keyLabel="ܴ"/>
         <Key android:codes="1619" android:keyLabel="ٓ"/>
