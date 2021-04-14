@@ -49,7 +49,7 @@
         <Key android:codes="1584" android:keyLabel="ذ"  android:keyWidth="9%p" android:keyEdgeFlags="left"/>
         <Key android:codes="1569" android:keyLabel="ء"/>
         <Key android:codes="1572" android:keyLabel="ؤ"/>
-        <Key android:codes="1585" android:keyLabel="ر"  />
+        <Key android:codes="1585" android:keyLabel="ر"/>
         <Key android:codes="1609" android:keyLabel="ى"/>
         <Key android:codes="1677" android:keyLabel="ة"/>
         <Key android:codes="1608" android:keyLabel="و" android:keyWidth="9%p"/>
