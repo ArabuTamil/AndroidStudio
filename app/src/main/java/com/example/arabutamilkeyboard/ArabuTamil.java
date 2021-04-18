@@ -10,6 +10,7 @@ import android.os.IBinder;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
+import java.lang.Enum.*;
 
 public class ArabuTamil extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
